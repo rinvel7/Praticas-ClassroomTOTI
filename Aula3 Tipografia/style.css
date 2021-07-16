@@ -1,0 +1,145 @@
+body {
+    font-family:"Open sans serif", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+  .menu {
+    background-color: #2180A7;
+  }
+  
+  .menu__item {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+  }
+  
+  .menu__item:hover {
+    opacity: 1;
+  }
+  
+  .destaque {
+     background-color: #0D141A; 
+  }
+  .destaque__titulo {
+    font-family:"PT Sans Narrow";
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+  }
+  
+  .card__titulo {
+    font-family:"PT Sans Narrow";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #51555A;
+  }
+  
+  .card__titulo:hover {
+    color: #229FD3;
+  } 
+  
+  .card__data {
+    font-family:"Open Sans", sans-serif;
+    color: #999999;
+  }
+  
+  .card__autor {
+    font-family: "Open Sans" sans-serif;
+    color: #229FD3;
+    text-decoration: none;
+  }
+  
+  .card__descriçao {
+    font-family: "Open Sans", sans-serif;
+    line-height: 14px;
+    color: #666666;
+    font-size: 12px;
+  }
+  
+  .breadcrumb {
+    color: #888888;
+    font-family:"PT Sans Narrow"
+  }
+  
+  .breadcrumb__home, .breadcrumb__categoria {
+    color: #229fd3;
+    font-family: "PT Sans Narrow";
+    font-size: 10px;
+    font-weight: 600;
+  }
+  
+  .noticia__titulo {
+    font-family:"PT Sans Narrow", sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #3E4248;
+  }
+  
+  .noticias__resumo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    color: #777777;
+  }
+  
+  .noticia__corpo{
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #444444;
+  }
+  
+  .noticia__linkcorpo {
+    color: #229fd3;
+   }
+  
+  .noticia__linkcorpo:hover {
+    text-decoration: underline;
+  }
+  
+  .noticia__fonte {
+    font-family: "Open Sans", San Serif;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #444444;
+  }
+  
+  .noticia__fontelink {
+      color: #229fd3;
+  }
+  
+  .noticia__fontelink:hover {
+    text-decoration: underline;
+  }
+  
+  .rodape {
+    background: #14739A;
+  }
+  
+  .rodape__link {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ffffff;
+  
+  }
+  
+  .rodape__link:hover {
+      text-decoration: underline;
+  }
+  
+  .rodape__copyright {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ffffff;
+  }

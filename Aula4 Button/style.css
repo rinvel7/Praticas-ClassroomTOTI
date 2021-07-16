@@ -1,0 +1,79 @@
+* {
+    font-family: -apple-system, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    
+  }
+  
+  .botao {
+    display: inline-flex;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    height: 32px;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    
+  }
+  
+  .botao__primario {
+    background-color: transparent;
+    color: #0a66c2;
+    border-color: #0a66c2;
+   
+  }
+  
+  .botao__primario:hover {
+    background-color: rgba(112,181,249,0.2);
+    border-width: 2px;
+  }
+  
+  .botao__primario:active {
+    background-color: rgba(112,181,249,0.3);
+    color: #004182;
+    border-color: #004182;
+  }
+  
+  .botao__secundario {
+    background-color: #0a66c2;
+    color: #fff;
+    border-color: transparent;
+      
+  }
+  .botao__secundario:hover {
+    background-color: #004182;
+    border-width: 2px;
+  }
+  
+  .botao__secundario:active {
+    background-color: #09223b;
+    color: rgba(255, 255, 255, 0.7);
+   
+  }
+  
+  .botao__terceario {
+    background-color: transparent;
+    color: rgba(0,0,0,0.6);
+    border-color: rgba(0,0,0,0.6); 
+    
+  }
+  
+  .botao__terciario:hover {
+    border-width: 2px;
+    background-color: rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.6);
+    border-color: rgba(0, 0, 0, 0.6);
+    
+  }
+  
+  .botao__terceario:active {
+    color: rgba(0,0,0,0.9);
+    border-color: rgba(0,0,0,0.9); 
+    
+  }
+  
